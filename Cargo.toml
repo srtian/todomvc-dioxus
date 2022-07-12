@@ -1,0 +1,14 @@
+[package]
+name = "todomvc"
+version = "0.1.0"
+edition = "2022"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+dioxus = { version = "0.2.4", features = ["web"] }
+wasm-bindgen = "0.2.81"
+log = "0.4.17"
+im-rc = "15.0.0"
+wasm-logger = "0.2.0"
+console_error_panic_hook = "*"
