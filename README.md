@@ -1,5 +1,5 @@
 # todomvc-dioxus
-TodoMVC implementation using the dioxus framework.
+Use dioxus v0.2 to develop TODOMVC in components
 
 # Build
 1. install Rust: https://www.rust-lang.org/tools/install
@@ -8,5 +8,6 @@ TodoMVC implementation using the dioxus framework.
    
 3. run the project:
    ```
+   cargo run
    dioxus serve
    ```
